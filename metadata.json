@@ -1,0 +1,6 @@
+{
+  "name": "Pigeon GO",
+  "description": "Cross-platform real-time mobile development bridge",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

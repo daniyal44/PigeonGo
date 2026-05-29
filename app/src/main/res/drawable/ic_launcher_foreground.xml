@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Graphic layout representing Pigeon (Bridge) - stylized with neon purple and electric green -->
+    <path
+        android:fillColor="#8B5CF6"
+        android:pathData="M54,24c-16.6,0 -30,13.4 -30,30s13.4,30 30,30 30,-13.4 30,-30S70.6,24 54,24z" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M54,34c-11,0 -20,9 -20,20s9,20 20,20 20,-9 20,-20S65,34 54,34z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M50,44 L58,44 L58,64 L50,64 Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M44,50 L64,50 L64,58 L44,58 Z" />
+</vector>

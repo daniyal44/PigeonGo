@@ -1,0 +1,13 @@
+# Robots.txt rule configurations for Pigeon GO Workspace
+User-agent: *
+Disallow: /.gradle/
+Disallow: /.build-outputs/
+Disallow: /.kotlin/
+Disallow: /app/build/
+Disallow: /build/
+Disallow: /debug.keystore.base64
+
+# Allow documentation and public roadmap assets
+Allow: /README.md
+Allow: /read.md
+Allow: /roadmap.xml
