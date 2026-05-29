@@ -1,11 +1,19 @@
-# Pigeon GO 🐦💨
+# Pigeon GO - Quick Start & Execution Guide 🐦💨
 
-Please refer to the complete [README.md](./README.md) at the project root for comprehensive documentation, setup commands, and configuration instructions.
+For the comprehensive, step-by-step local machine setup and run commands for Windows, macOS, and Linux, see the main [README.md](./README.md) file.
 
-## Quick References
-- **App Name**: Pigeon GO
-- **Description**: Real-time Mobile responsive development bridge
-- **Architecture**: MVVM with Room DB and Jetpack Compose
-- **Build Commands**:
-  - `gradle assembleDebug` to build the app
-  - `gradle :app:testDebugUnitTest` to execute test cases
+### Quick Start Shell Commands
+
+#### ❖ macOS / Linux
+```bash
+./gradlew clean assembleDebug installDebug
+adb shell monkey -p "com.aistudio.pigeongo.pgo" -c android.intent.category.LAUNCHER 1
+```
+
+#### ❖ Windows
+```powershell
+.\gradlew.bat clean assembleDebug installDebug
+adb shell monkey -p "com.aistudio.pigeongo.pgo" -c android.intent.category.LAUNCHER 1
+```
+
+*For troubleshooting and detailed system environment variable setup, please read [README.md](./README.md).*

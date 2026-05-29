@@ -1,42 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <roadmap project="Pigeon GO">
     <milestone id="1" status="completed">
-        <title>Phase 1: Foundation &amp; Local Engines</title>
-        <description>Database entity definitions, view-models, and navigation graph creation.</description>
+        <title>Phase 1: Local Guides &amp; Multi-Platform Specs</title>
+        <description>Documenting setup procedures and terminal execution guidelines.</description>
         <deliverables>
-            <item>Room Database integration via KSP for persistent session history.</item>
-            <item>Theme and dark color palette (Deep Black &amp; Neon accents).</item>
-            <item>Main entry activity and MVVM state bindings.</item>
-        </deliverables>
-    </milestone>
-
-    <milestone id="2" status="completed">
-        <title>Phase 2: UI Polishing &amp; Quality Integration</title>
-        <description>Implementation of adaptive designs, test coverage, and compiler version alignments.</description>
-        <deliverables>
-            <item>Live tunnel previews using isolated WebViews and Console Mirrors.</item>
-            <item>Resolved Compose layout styling bugs (draw.clip packages).</item>
-            <item>Configured Robolectric testing capabilities for offline state integration tests.</item>
-            <item>Successfully compiled full Gradle release applet.</item>
-        </deliverables>
-    </milestone>
-
-    <milestone id="3" status="planned">
-        <title>Phase 3: Real-Time Developer Features</title>
-        <description>Extending diagnostic properties and multi-protocol tools directly inside the overlay.</description>
-        <deliverables>
-            <item>True WebSocket listening bridge for forwarding client-side console logs.</item>
-            <item>Interactive CSS/DOM inspector overlay for quick responsive debugging.</item>
-            <item>Network payload viewer to mirror and review loaded asset payloads.</item>
-        </deliverables>
-    </milestone>
-
-    <milestone id="4" status="planned">
-        <title>Phase 4: Remote Integrations</title>
-        <description>Deploying secure cross-platform synchronization mechanics.</description>
-        <deliverables>
-            <item>QR Code generator to speed up scanning local dev host URLs.</item>
-            <item>Remote casting stream allowing secondary devices to monitor active testing frames.</item>
+            <item>Created step-by-step local machine executable instructions.</item>
+            <item>Documented macOS, Windows, and Linux target platform configurations.</item>
+            <item>Detailed ADB monkey automation scripting for fast emulator deployment.</item>
         </deliverables>
     </milestone>
 </roadmap>
